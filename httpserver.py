@@ -9,7 +9,6 @@ import easytrader
 app = Flask(__name__)
 user = None
 
-
 @app.route('/login')
 def login():
     global user
